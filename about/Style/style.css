@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEEEEE;
+    margin: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.list {
+    display: flex;
+    gap: 2rem;
+}
+
+.main-section{
+    width: 100vw;
+    height: 100vh;
+}
+.about-us-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.about-us-section  h1{
+    font-size: 2rem;
+    color: rgb(97, 211, 154);
+    text-transform: capitalize;
+}
+
+.about-us-section p{
+    width: 40%;
+    font-weight: 550;
+    margin-top: 0.9rem;
+}
+
+.main-box{
+    display: flex;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+
+.box{
+    width: 10rem;
+    height: 6rem ;
+    /* border: 2px solid black; */
+    display: grid;
+    place-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black, -1px -1px 5px black;   
+}
